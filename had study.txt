@@ -1,10 +1,10 @@
-git clone <url>
-git push
-git pull
-git config --global user.name <user name>
-git config --global user.email <user email>
-git commit -m <message>
-git log
-git reflog
-git reset --hard <version>
-git show <version>
+git clone <url>                 # 從遠端倉庫複製一份到本地端
+git push                        # 將本地端的提交推送到遠端倉庫
+git pull                        # 從遠端倉庫抓取更新並合併到本地端
+git config --global user.name <user name>   # 設定全域使用者名稱
+git config --global user.email <user email> # 設定全域使用者電子郵件
+git commit -m <message>         # 建立提交並附上訊息
+git log                         # 查看提交紀錄（commit history）
+git reflog                      # 查看所有操作紀錄（包含 reset、checkout 等）
+git reset --hard <commit_hash>  # 強制回到指定版本（會丟失未保存的修改）
+git show <commit_hash>          # 顯示指定版本的詳細內容（差異、訊息等）
