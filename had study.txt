@@ -1,0 +1,10 @@
+git clone <url>
+git push
+git pull
+git config --global user.name <user name>
+git config --global user.email <user email>
+git commit -m <message>
+git log
+git reflog
+git reset --hard <version>
+git show <version>
