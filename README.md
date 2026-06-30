@@ -1,2 +1,2 @@
 # git_test
-This repository is for studing that how to use git and github.(version2)
+This repository is for studing that how to use git and github.
